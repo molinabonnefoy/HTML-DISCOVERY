@@ -25,6 +25,6 @@ Let's quickly review each part of the element pictured:
 
 -   Closing tag --- the second HTML tag used to end an HTML element. Closing tags have a forward slash (`/`) inside of them, directly after the left angle bracket.
 
-#Instructions
+# Instructions
 
 Study the diagram to learn about the anatomy of HTML syntax. When you're done, continue to the next exercise.

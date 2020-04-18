@@ -15,7 +15,7 @@ Once the file has a body, many different types of content -- including text, ima
 </body>
 ````
 
-Instructions
+# Instructions
 
 1. Add a body to your web page using the `<body>` element.
 
