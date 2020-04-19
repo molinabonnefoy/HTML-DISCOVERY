@@ -1,19 +1,39 @@
-Line Breaks
-===========
+Unordered Lists
+===============
 
-The spacing between code in an HTML file doesn't affect the positioning of elements in the browser. If you are interested in modifying the spacing in the browser, you can use HTML's *line break* element: `<br>`.
+In addition to organizing text in paragraph form, you can also display content in an easy-to-read list.
 
-The line break element is unique because it is only composed of a starting tag. You can use it anywhere within your HTML code and a line break will be shown in the browser.
+In HTML, you can use an *unordered list* tag (`<ul>`) to create a list of items in no particular order. An unordered list outlines individual *list items* with a bullet point.
+
+The `<ul>` element should not hold raw text and won't automatically format raw text into an unordered list of items. Individual list items must be added to the unordered list using the `<li>` tag. The `<li>` or list item tag is used to describe an item in a list.
+
 ````html
-<p>The Nile River is the longest river <br> in the world, measuring over 6,850 <br> kilometers long (approximately 4,260 <br> miles).</p>
-
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
 ````
 
-The code in the example above will result in an output that looks like the following:
+In the example above, the list was created using the `<ul>` tag and all individual list items were added using `<li>` tags.
 
-<p>The Nile River is the longest river <br> in the world, measuring over 6,850 <br> kilometers long (approximately 4,260 <br> miles).</p>
+The output will look like this:
+
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
 
 
 # Instructions
 
-1. Add two line breaks (`<br>`) after the sentence that ends with `Least Concern`.
+1. Under the heading that says `Species`, create an unordered list.
+Do not add any list items to the list just yet.
+
+2. Add the following list items to the unordered list:
+
+-   Arctos
+-   Collarus
+-   Horribilis
+-   Nelsoni (extinct)
