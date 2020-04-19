@@ -3,7 +3,7 @@ HTML Anatomy
 
 HTML is composed of *elements*. These elements structure the webpage and define its content. Let's take a look at how they're written.
 
-![alt text](./anatomy.svg "HTML paragraph element")
+![alt text](anatomy.svg "HTML paragraph element")
 
 The diagram displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
