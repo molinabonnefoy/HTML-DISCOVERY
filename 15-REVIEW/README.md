@@ -1,0 +1,31 @@
+INTRODUCTION TO HTML
+
+Review
+======
+
+Congratulations on completing the first lesson of HTML! You are well on your way to becoming a skilled web developer.
+
+Let's review what you've learned so far:
+
+-   HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
+-   Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
+-   HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
+-   Any visible content should be placed within the opening and closing `<body>` tags.
+-   Headings and sub-headings, `<h1>` to `<h6>` tags, are used to enlarge text.
+-   `<p>`, `<span>` and `<div>` tags specify text or blocks.
+-   The `<em>` and `<strong>` tags are used to emphasize text.
+-   Line breaks are created with the `<br>` tag.
+-   Ordered lists (`<ol>`) are numbered and unordered lists (`<ul>`) are bulleted.
+-   Images (`<img>`) and videos (`<video>`) can be added by linking to an existing source.
+
+In the next lesson, we'll take the content that you've added to this website and transform it into an HTML document that's ready to go on the web.
+
+Download the [Elements: Cheat Sheet](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/reference) to help you remember the content covered in this lesson.
+
+Instructions
+
+We've left you with your final code. Feel free to play around and modify it using the new elements you've learned!
+
+If you want to see how to review how structure HTML in a project and use semantically meaningful elements, watch the video below and follow along with one of our experts:
+
+[View the Video](https://youtu.be/uxmB8MlO3m8) 

@@ -1,14 +1,27 @@
-Introduction to HTML
-====================
+# Prerequisite 
 
-Welcome to the world of code! Last year, millions of learners from our community started with HTML. Why? HTML is the skeleton of all web pages. It's often the first language learned by developers, marketers, and designers and is core to front-end development work. If this is your first time touching code, we're excited for what you're about to create.
+## XAMP
 
-So what exactly is HTML? HTML provides structure to the content appearing on a website, such as images, text, or videos. Right-click on any page on the internet, choose "Inspect," and you'll see HTML in a panel of your screen.
+XAMPP is an open source software developed by [Apache friends](https://www.apachefriends.org/download.html). XAMPP software package contains Apache distributions for Apache server, MariaDB, PHP, and Perl. And it is basically a local host or a local server. This local server works on your own desktop or laptop computer. The use of XAMPP is to test the clients or your website before uploading it to the remote web server. This XAMPP server software gives you the suitable environment for testing MYSQL, PHP, Apache and Perl projects on the local computer.
 
-HTML stands for HyperText Markup Language:
+The full form of XAMPP is 
+- (X) stands for Cross-platform
+- (A) Apache server
+- (M) MariaDB
+- (P) PHP and (P) Perl. 
 
--   A *markup* language is a computer language that defines the structure and presentation of raw text.
--   In HTML, the computer can interpret *raw text* that is wrapped in HTML elements.
--   *HyperText* is text displayed on a computer or device that provides access to other text through links, also known as *hyperlinks*. You probably clicked on a couple of hyperlinks on your way to this Codecademy course.
+The Cross-platform usually means that it can run on any computer with any operating system.
 
-Learning HTML is the first step in creating websites, but even a bit of knowledge can help you inject code snippets into newsletter, blog or website templates. As you continue learning, you can layer HTML with CSS and JavaScript to create visually compelling and dynamic websites. But for now, we're going to focus on how to add and modify basic content on a page, like text, images, and videos. Don't worry if the websites look ugly --- we're just getting started.
+**Install a local web server.[Téléchargement](https://www.apachefriends.org/fr/download.html)**
+
+# Start working
+1. clone your repository in your web directory 
+1. Go to [https://www.codecademy.com](https://www.codecademy.com/) and create a free account with your email @lyceeppr.fr
+2. [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html) choose "Introduction to HTML"
+3. Do each exercise on codeaccademy, **commit and push each exercise in github**, the commit message MUST be "Chapter [X] [chapter title]"
+
+eg.
+`git commit -m "Chapter 3 the body"`
+
+
+
