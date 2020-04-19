@@ -1,0 +1,39 @@
+Table Body
+==========
+
+Over time, a table can grow to contain a lot of data and become very long. When this happens, the table can be sectioned off so that it is easier to manage.
+
+Long tables can be sectioned off using the *table body* element: `<tbody>`.
+
+The `<tbody>` element should contain all of the table's data, excluding the table headings (more on this in a later exercise).
+
+````html
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Saturday</th>
+      <th>Sunday</th>
+    </tr>
+    <tr>
+      <th>Morning</th>
+      <td rowspan="2">Work</td>
+      <td rowspan="3">Relax</td>
+    </tr>
+    <tr>
+     <th>Afternoon</th>
+    </tr>
+    <tr>
+      <th>Evening</th>
+      <td>Dinner</td>
+    </tr>
+  </tbody>
+</table>
+
+````
+
+In the example above, all of the table data is contained within a table body element. Note, however, that the headings were also kept in the table's body --- we'll change this in the next exercise.
+
+# Instructions
+
+1. Enclose rows 2, 3, 4, 5, and 6 of the table in a `<tbody>` element.

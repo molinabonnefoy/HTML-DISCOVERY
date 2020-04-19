@@ -1,44 +1,62 @@
-Table Headings
-==============
+Table Borders
+=============
 
-Table data doesn't make much sense without titles to describe what the data represents.
+So far, the tables you've created have been a little difficult to read because they have no borders.
 
-To add titles to rows and columns, you can use the *table heading* element: `<th>`.
-
-The table heading element is used just like a table data element, except with a relevant title. Just like table data, a table heading must be placed within a table row.
+In older versions of HTML, a border could be added to a table using the `border` attribute and setting it equal to an integer. This integer would represent the thickness of the border.
 ````html
-<table>
+<table border="1">
   <tr>
-    <th></th>
-    <th scope="col">Saturday</th>
-    <th scope="col">Sunday</th>
-  </tr>
-  <tr>
-    <th scope="row">Temperature</th>
     <td>73</td>
     <td>81</td>
   </tr>
 </table>
+
 ````
 
-What happened in the code above?
+The code in the example above is following is [deprecated](https://en.wikipedia.org/wiki/Deprecation), so please don't use it. It's meant to illustrate older conventions you may come across when reading other developers' code.
 
-First, a new row was added to hold the three headings: a blank heading, a `Saturday` heading, and a `Sunday` heading. The blank heading creates the extra table cell necessary to align the table headings correctly over the data they correspond to.
+The browser will likely still interpret your code correctly if you use the `border` attribute, but that doesn't mean the attribute should be used.
 
-In the second row, one table heading was added as a row title: `Temperature`.
+We use CSS to add style to HTML documents, because it helps us to separate the structure of a page from how it looks. You can learn more about CSS in our CSS courses.
 
-Note, also, the use of the `scope` attribute, which can take one of two values:
+You can achieve the same table border effect using CSS.
+`````html
+table, td {
+  border: 1px solid black;
+}
+`````
 
-1.  `row` - this value makes it clear that the heading is for a row.
-2.  `col` - this value makes it clear that the heading is for a column.
 
-HTML code for tables may look a little strange at first, but analyzing it piece by piece helps make the code more understandable.
+The code in the example above uses CSS instead of HTML to show table borders.
 
 # Instructions
 
-1. In the first row, add three table headings. The headings should contain the following data, in order:
--   Company Name
--   Number of Items to Ship
--   Next Action
-
-These headings will add meaning to the rest of the data in the table.
+We're going to need some more data in the table. Add the following data to the table. Make sure to place it after the second table row.
+````
+<tr>
+  <td>Davie's Burgers</td>
+  <td>2</td>
+  <td>Send Invoice</td>
+</tr>
+<tr>
+  <td>Baker's Bike Shop</td>
+  <td>3</td>
+  <td>Send Invoice</td>
+</tr>
+<tr>
+  <td>Miss Sally's Southern</td>
+  <td>4</td>
+  <td>Ship</td>
+</tr>
+<tr>
+  <td>Summit Resort Rentals</td>
+  <td>4</td>
+  <td>Ship</td>
+</tr>
+<tr>
+  <td>Strike Fitness</td>
+  <td>1</td>
+  <td>Enter Order</td>
+</tr>
+````
