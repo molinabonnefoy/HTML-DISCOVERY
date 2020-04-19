@@ -15,8 +15,8 @@ The Cross-platform usually means that it can run on any computer with any operat
 **Install a local web server.[Téléchargement](https://www.apachefriends.org/fr/download.html)**
 
 # Start working
-1. clone your repository in your web directory 
-1. Go to [https://www.codecademy.com](https://www.codecademy.com/) and create a free account with your email @lyceeppr.fr
+1. clone your repository in your web directory
+2. Go to [https://www.codecademy.com](https://www.codecademy.com/) and create a free account with your email @lyceeppr.fr
 2. [https://www.codecademy.com/learn/learn-html](https://www.codecademy.com/learn/learn-html) choose "Introduction to HTML"
 3. Do each exercise on codeaccademy, **commit and push each exercise in github**, the commit message MUST be "Chapter [X] [chapter title]"
 
