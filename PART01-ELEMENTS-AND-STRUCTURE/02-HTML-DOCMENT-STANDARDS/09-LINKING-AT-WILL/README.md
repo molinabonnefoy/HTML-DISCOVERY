@@ -1,0 +1,28 @@
+Linking At Will
+===============
+
+You've probably visited websites where not all links were made up of text. Maybe the links you clicked on were images or some other form of content.
+
+So far, we've added links that were made up of only text, like the following:
+````html
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">Prickly Pear</a>
+````
+
+Text-only links, however, would significantly decrease your flexibility as a web developer!
+
+Thankfully, HTML allows you to turn nearly any element into a link by wrapping that element with an anchor element. With this technique, it's possible to turn images into links by simply wrapping the `<img>` element with an `<a>` element.
+````html
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/></a>
+````
+
+In the example above, an image of a prickly pear has been turned into a link by wrapping the outside of the `<img>` element with an `<a>` element.
+
+# Instructions
+
+1. In index.html, transform the image on your page into a link by wrapping the image element with an anchor element. Set the `target` attribute so that the link opens in a new window.
+
+Your image element should be a nested tag inside your anchor element.
+
+Use the same URL as before:
+
+`https://en.wikipedia.org/wiki/Brown_bear`
